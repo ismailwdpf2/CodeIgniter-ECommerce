@@ -1,0 +1,1431 @@
+INFO - 2023-07-03 08:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-03 08:44:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-07-03 08:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-03 08:44:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-07-03 08:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:35:56 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:35:56 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = :category_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:36:33 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:36:33 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:36:34 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:36:34 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:37:11 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:37:11 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:37:12 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:37:12 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:37:13 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:37:13 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:37:14 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:37:14 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 11:52:52 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 11:52:52 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(158): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 11:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 11:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 12:01:09 --> Too few arguments to function App\Controllers\Admin\Product::product_show(), 0 passed in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Admin\Product.php on line 163.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:12:40 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('25')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:12:40 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = \'25\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = \'25\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = \'25\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('25')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:12:48 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:12:48 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` =`subcategories,category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:13:58 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:13:58 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:13:59 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:13:59 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:14:00 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:14:00 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:14:01 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:14:01 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`id` = `subcategories`.`category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:16:48 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:16:48 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:16:49 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:16:49 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:16:50 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:16:50 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`category_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:18:22 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:18:22 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:18:23 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:18:23 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:18:24 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:18:24 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:18:25 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:18:25 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = \'20\'
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('20')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 12:19:07 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-03 12:19:07 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = 20
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = 20
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = 20
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `categories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `subcategories` ON `products`.`subcategory_id` = `subcategories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(172): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 12:26:56 --> Undefined array key "image_name"
+in APPPATH\Views\Layouts\image-card.php on line 101.
+ 1 APPPATH\Views\Layouts\image-card.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_name"', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\Layouts\\image-card.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\Layouts\\image-card.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Layouts/image-card.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(176): view('Layouts/image-card.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 12:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 12:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:25:31 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:27:40 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:27:42 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:27:42 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:27:43 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:27:45 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:28:47 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:28:48 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 13:33:00 --> Undefined variable $data
+in APPPATH\Views\allproduct.php on line 9.
+ 1 APPPATH\Views\allproduct.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Views\\allproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('allproduct.php', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(201): view('allproduct.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 13:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 13:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 14:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 16:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 17:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 18:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 18:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

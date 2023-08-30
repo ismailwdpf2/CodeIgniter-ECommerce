@@ -1,0 +1,1663 @@
+INFO - 2023-06-21 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 09:54:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-06-21 09:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 09:54:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-06-21 09:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 09:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:07:22 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Admin\Product.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Controllers\\Admin\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:07:44 --> Invalid file: "Admin/Product/crtate.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Product/crtate.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Product/crtate', [], true)
+ 3 APPPATH\Controllers\Admin\Product.php(152): view('Admin/Product/crtate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:16:10 --> Object of class App\Models\ProductModel could not be converted to string
+in APPPATH\Controllers\Admin\Product.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:16:11 --> Object of class App\Models\ProductModel could not be converted to string
+in APPPATH\Controllers\Admin\Product.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:16:11 --> Object of class App\Models\ProductModel could not be converted to string
+in APPPATH\Controllers\Admin\Product.php on line 150.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:16:32 --> Invalid file: "Admin/Product/crtate.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Product/crtate.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Product/crtate', [], true)
+ 3 APPPATH\Controllers\Admin\Product.php(152): view('Admin/Product/crtate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:17:04 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:17:09 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:17:10 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 10:17:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-06-21 10:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 10:17:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-06-21 10:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:17:37 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:18:28 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:18:29 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:18:34 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:19:05 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:53:00 --> Invalid file: "Admin/Product/crtate.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Product/crtate.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Product/crtate', [], true)
+ 3 APPPATH\Controllers\Admin\Product.php(153): view('Admin/Product/crtate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:53:10 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 10:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:53:14 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:54:35 --> Invalid file: "Admin/Product/crtate.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Product/crtate.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Product/crtate', [], true)
+ 3 APPPATH\Controllers\Admin\Product.php(153): view('Admin/Product/crtate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:55:56 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:55:57 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(45): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:56:18 --> Invalid file: "Admin/product/crtate.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/product/crtate.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/crtate', [], true)
+ 3 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/crtate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:04 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:06 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:07 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:07 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:08 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:08 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:08 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:10 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:10 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:10 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:11 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:11 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 10:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 10:58:13 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(153): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:07:20 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(154): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:07:55 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(154): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:08:20 --> Undefined variable $product
+in APPPATH\Views\Admin\product\create.php on line 108.
+ 1 APPPATH\Views\Admin\product\create.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(46): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:44:13 --> Undefined array key "image"
+in APPPATH\Views\subcat.php on line 12.
+ 1 APPPATH\Views\subcat.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(51): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:58:58 --> Undefined array key "image"
+in APPPATH\Views\subcat.php on line 31.
+ 1 APPPATH\Views\subcat.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(51): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:59:19 --> Undefined array key "images"
+in APPPATH\Views\subcat.php on line 31.
+ 1 APPPATH\Views\subcat.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(51): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:59:21 --> Undefined array key "images"
+in APPPATH\Views\subcat.php on line 31.
+ 1 APPPATH\Views\subcat.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(51): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 11:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 11:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 11:59:25 --> Undefined array key "images"
+in APPPATH\Views\subcat.php on line 31.
+ 1 APPPATH\Views\subcat.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(51): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:19:50 --> Call to undefined method App\Models\ProductModel::leftJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\Product.php(154): CodeIgniter\Model->__call('leftJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:19:54 --> Call to undefined method App\Models\ProductModel::leftJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin\Product.php(154): CodeIgniter\Model->__call('leftJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:21:32 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(160): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:23:04 --> Undefined variable $subcats
+in APPPATH\Views\subcat.php on line 8.
+ 1 APPPATH\Views\subcat.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(160): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:23:06 --> Undefined variable $subcats
+in APPPATH\Views\subcat.php on line 8.
+ 1 APPPATH\Views\subcat.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(160): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:23:07 --> Undefined variable $subcats
+in APPPATH\Views\subcat.php on line 8.
+ 1 APPPATH\Views\subcat.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(160): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:23:07 --> Undefined variable $subcats
+in APPPATH\Views\subcat.php on line 8.
+ 1 APPPATH\Views\subcat.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(160): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:36:36 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(154): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:36:37 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(154): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:36:40 --> Undefined variable $cats
+in APPPATH\Views\Admin\product\create.php on line 24.
+ 1 APPPATH\Views\Admin\product\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\Admin\\product\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/product/create', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(154): view('Admin/product/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:42:18 --> syntax error, unexpected variable "$pmodel", expecting "function" or "const"
+in APPPATH\Controllers\Admin\SubcategoryController.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Controllers\\Admin\\SubcategoryController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\SubcategoryController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\SubcategoryController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\SubcategoryController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 12:42:25 --> syntax error, unexpected variable "$pmodel", expecting "function" or "const"
+in APPPATH\Controllers\Admin\SubcategoryController.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Controllers\\Admin\\SubcategoryController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\SubcategoryController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\SubcategoryController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\SubcategoryController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 12:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 13:22:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2 in C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\app\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+#6 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+#7 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-21 13:22:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = :category_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 13:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 13:24:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2 in C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\app\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+#6 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+#7 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-21 13:24:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = :category_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 13:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 13:24:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2 in C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\app\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+#6 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+#7 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-21 13:24:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = :category_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 13:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 13:24:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2 in C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\app\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+#6 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+#7 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\round_53\Mohim\Ecomearce\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-21 13:24:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `i...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`products`.*, `images`.`name` as `imagename`)
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = :category_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 13:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 13:25:11 --> Undefined array key "imagename"
+in APPPATH\Views\subcat.php on line 31.
+ 1 APPPATH\Views\subcat.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagename"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(53): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 13:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 13:25:12 --> Undefined array key "imagename"
+in APPPATH\Views\subcat.php on line 31.
+ 1 APPPATH\Views\subcat.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagename"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(53): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 13:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 13:25:24 --> Undefined array key "imagename"
+in APPPATH\Views\subcat.php on line 31.
+ 1 APPPATH\Views\subcat.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagename"', 'C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\round_53\\Mohim\\Ecomearce\\Ecomearce\\app\\Views\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('subcat', [], true)
+ 5 APPPATH\Controllers\Admin\SubcategoryController.php(53): view('subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\SubcategoryController->show_products('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 13:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 15:53:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-06-21 15:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 15:53:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-06-21 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 15:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 16:35:03 --> Too few arguments to function App\Controllers\Admin\Product::product_show(), 0 passed in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Admin\Product.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 16:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 16:35:26 --> Too few arguments to function App\Controllers\Admin\Product::product_show(), 0 passed in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Admin\Product.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 16:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:27:07 --> mysqli_sql_exception: Column 'category_id' in where clause is ambiguous in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:27:07 --> Column 'category_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+LEFT JOIN `categories` ON `images`.`product_id`  = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:36:56 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:36:56 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:37:09 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:37:09 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:37:56 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:37:56 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:39:50 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:39:50 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` IS NULL
+ORDER BY `products`.`id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:40:08 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:40:08 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:46:01 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:46:01 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:54:35 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\Admin\SubcategoryController.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Controllers\\Admin\\SubcategoryController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\SubcategoryController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\SubcategoryController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\SubcategoryController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:57:52 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\Admin\SubcategoryController.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Controllers\\Admin\\SubcategoryController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\SubcategoryController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\SubcategoryController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\SubcategoryController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:02:10 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:02:10 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 18:02:49 --> Unmatched '}'
+in APPPATH\Controllers\Admin\Product.php on line 161.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\Mahim_53\\Codeigniter\\Project\\Ecomearce\\app\\Controllers\\Admin\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:04:29 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:04:29 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:05:57 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:05:57 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:06:03 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:06:03 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('11')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:26:39 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\app\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+#7 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+#8 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\Xampp\htdocs\Mahim_53\Codeigniter\Project\Ecomearce\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:26:39 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = 12
+ORDER BY `products`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `images`.`name` as `imagename`, `categories`.`name` as `catname`
+FROM `products`
+LEFT JOIN `images` ON `products`.`id` = `images`.`product_id`
+LEFT JOIN `subcategories` ON `products`.`category_id` = `categories`.`id`
+WHERE `category_id` = :category_id:
+ORDER BY `products`.`id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Product.php(156): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Product->product_show('10')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
